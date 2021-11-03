@@ -1,0 +1,189 @@
+body{
+  font-family: sans-serif;
+}
+
+.gameContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameGrid:hover{
+  cursor: pointer;
+}
+
+.section1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.section2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currentBall{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.currentInner{
+  height: 92px;
+  width: 92px;
+  background-color: white;
+  border-radius: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentInner h3{
+  margin-top: 25px;
+  margin-bottom: -20px
+}
+
+.cardContainer{
+  border: solid black 2px;
+}
+
+.lettersRow{
+  display: flex;
+  font-size: xx-large;
+}
+
+.lettersRow:hover{
+  cursor: default;
+}
+
+.gameGrid{
+  display: flex;
+  flex-direction: row;
+}
+
+.bColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  border: solid black 2px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.box2{
+  border: solid black 2px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.gameGrid .box:hover{
+  background-color: lightgray;
+}
+
+.wasCalledHead{
+  font-size: large;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.wasCalled{
+  width: 300px;
+  min-height: 30px;
+  border: solid black 2px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  margin-left: 20px;
+}
+
+.wasCalled:hover{
+  cursor: default;
+}
+
+.calledBall{
+  margin: 2px;
+  height: 26px;
+  width: 26px;
+  background-color: black;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calledBallInner{
+  height: 22px;
+  width: 22px;
+  background-color: white;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.bingoMessage{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button{
+  margin-top: 20px;
+  padding: 10px 60px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.far{
+  font-size: 50px;
+}
+
+.far:hover{
+  color: darkgray;
+  cursor: pointer;
+}
+
+.fas{
+  font-size: 36px;
+}
+
+.fas:hover{
+  color: darkgray;
+  cursor: pointer;
+}
+
+h3:hover{
+  cursor:default;
+}
+
+h1:hover{
+  cursor: default;
+}

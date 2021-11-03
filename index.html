@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="src/index.js"></script>
+    <script src="https://kit.fontawesome.com/f1f2d5a651.js" crossorigin="anonymous"></script>
+    <title>BINGO</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="gameHeader"></div>
+
+    <div class="gameContainer">
+
+      <div class="section1">
+        <div class="currentBall">
+          <div class="currentInner">
+            <i class="far fa-play-circle"></i>
+          </div>
+        </div> 
+        <div class="cardContainer">
+
+          <div class = "lettersRow">
+            <div class="box2">B</div>
+            <div class="box2">I</div>
+            <div class="box2">N</div>
+            <div class="box2">G</div>
+            <div class="box2">O</div>
+          </div>
+
+          <div class = "gameGrid">
+            <div class="bColumn">
+              <div class="box" id="b1"></div>
+              <div class="box" id="b2"></div>
+              <div class="box" id="b3"></div>
+              <div class="box" id="b4"></div>
+              <div class="box" id="b5"></div>
+            </div>
+            <div class="iColumn">
+              <div class="box" id="i1"></div>
+              <div class="box" id="i2"></div>
+              <div class="box" id="i3"></div>
+              <div class="box" id="i4"></div>
+              <div class="box" id="i5"></div>
+            </div>
+            <div class="nColumn">
+              <div class="box" id="n1"></div>
+              <div class="box" id="n2"></div>
+              <div class="box" id="n3"></div>
+              <div class="box" id="n4"></div>
+              <div class="box" id="n5"></div>
+            </div>
+            <div class="gColumn">
+              <div class="box" id="g1"></div>
+              <div class="box" id="g2"></div>
+              <div class="box" id="g3"></div>
+              <div class="box" id="g4"></div>
+              <div class="box" id="g5"></div>
+            </div>
+            <div class="oColumn">
+              <div class="box" id="o1"></div>
+              <div class="box" id="o2"></div>
+              <div class="box" id="o3"></div>
+              <div class="box" id="o4"></div>
+              <div class="box" id="o5"></div>
+            </div>
+          </div>
+        </div> 
+        <button>BINGO!</button>
+        <div class="bingoMessage"></div> 
+      </div>
+      
+      <div class="section2">
+        <div class="wasCalledHead">Numbers Called:</div>
+        <div class="wasCalled"></div>
+      </div>      
+    </div> 
+
+  </body>
+</html>
